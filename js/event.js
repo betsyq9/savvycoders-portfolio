@@ -41,7 +41,7 @@ $("li").hover(thingWeWantToDo)
 
 
 var generateUrl = function( city ){
-  var url = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&mode=json&units=imperial&appid=72d43f0d3e731d1c9dfae5490367e130';
+  var url = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&mode=json&units=imperial&appid=72d43f0d3e731d1c9dfae5490367e130';
 
   return url;
 };
