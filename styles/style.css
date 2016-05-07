@@ -1,0 +1,95 @@
+h2 {
+  color: #00334d;
+  font-size: 40px;
+}
+
+body{
+  margin: 0;
+}
+
+.button {
+  back-ground: black;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+}
+
+#header {
+  margin-top: 70px;
+  padding-left: 25px;
+  font-family: sans-serif;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar {
+  background-color: rgba(0,0,0,.85);
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+#navbar li {
+  color: white;
+  display: inline;
+  padding: 10px;
+}
+
+#footer {
+  color: white;
+  font-family: helvetica;
+}
+
+div.blog_post {
+  background-color: #00334d;
+  margin: 40px;
+  width: 75%;
+  opacity: .80;
+  border-radius: 5px;
+  padding: 1px 10px 10px 10px;
+  color: white;
+  font-family:sans-serif;
+}
+
+#container span {
+  font-style: italic;
+  font-size: 110%;
+}
+
+#content {
+  width: 75%;
+  float: left;
+}
+
+#sidebar {
+  background-color: black;
+  color: white;
+  width: 25%;
+  float: left;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 960px;
+  position: relative;
+  height: 700px;
+}
+
+
+
+ol li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #800000;
+}

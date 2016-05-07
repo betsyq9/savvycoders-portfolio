@@ -1,0 +1,40 @@
+{
+  "coord":{
+    "lon":-86.78,
+    "lat":36.17
+    },
+
+    "weather":[{
+      "id":800,
+      "main":"Clear",
+      "description":"clear sky",
+      "icon":"02d"
+      }],
+        "base":"cmc stations",
+        "main":{
+          "temp":288.143,
+          "pressure":1001.24,
+          "humidity":55,
+          "temp_min":288.143,
+          "temp_max":288.143,
+          "sea_level":1026.2,
+          "grnd_level":1001.24
+        },
+    "wind":{
+        "speed":4.22,
+        "deg":342.504
+        },
+    "clouds":{
+        "all":8
+        },
+        "dt":1462490494,
+        "sys":{
+          "message":0.0028,
+          "country":"US",
+          "sunrise":1462445313,
+           "sunset":1462495162
+              },
+        "id":4644585,
+        "name":"Nashville",
+        "cod":200
+            }

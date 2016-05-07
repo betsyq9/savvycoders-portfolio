@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Betsy Quinn | Contact</title>
+  <link type="text/css" rel="stylesheet" href="../styles/style.css"/>
+
+<style>
+
+  input {
+    display: block;
+  }
+
+  label input {
+    display: inline;
+  }
+
+  #navbar li {
+    display: inline;
+    margin-right: 15px;
+  }
+
+</style>
+
+</head>
+  <body>
+    <div id="navbar">
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/blog">Blog</a>
+        </li>
+        <li>
+          <a href="/projects">Projects</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+        </div>
+  <div class="header">
+    <h2>Contact Me</h2>
+    <p>Thanks for visiting my site! If you like my work send me a message!</p>
+  </div>
+  <form action="//formspree.io/betsyq9@gmail.com" method="POST">
+    <label>
+      Name
+      <input type="text" name="name" placeholder="First Last Name">
+    </label>
+    <label>
+      Email
+      <input type="email" name="email" placeholder="example@example.com">
+    </label>
+    <label>
+      Message
+      <textarea placeholder="Tell me what you think" name="message"></textarea>
+      <input type="submit">
+    </label>
+  </form>
+
+  </body>
+</html>
